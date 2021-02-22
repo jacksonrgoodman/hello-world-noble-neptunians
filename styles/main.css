@@ -17,3 +17,44 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
+.main {
+	display: flex;
+}
+.body {
+	background-color: aquamarine; 
+	flex-direction: row;
+}
+.header {
+	flex-direction: row;
+}
+.logo {
+	width: 25%;
+}
+.nav {
+	display: flex;
+}
+ul {
+	list-style-type: none;
+	display: flex;
+}
+li {
+	flex-direction: row;
+}
+.active {
+	background-color: violet;
+}
+.container {
+	display: flex;
+}
+.cities {
+	border: 1px dotted black;
+	flex-direction: column;
+}
+.landmarks {
+	border: 1px dotted black;
+	flex-direction: column;
+}
+.people {
+	border: 1px dotted black;
+	flex-direction: column;
+}
