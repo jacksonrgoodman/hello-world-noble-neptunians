@@ -1,0 +1,38 @@
+.logo {
+    min-width: 150px;
+}
+
+.container {
+    
+	background: white;
+	display: flex;
+	text-align: center;
+
+}
+
+.people {
+    flex-direction: column;
+	flex: 1;
+    border: 1px black solid;
+    border-radius: 15px;
+
+}
+
+.cities {
+    flex-direction: column;
+	flex: 1;
+    border: 1px black solid;
+    border-radius: 15px;
+    
+
+}
+
+.landmarks {
+    flex-direction: column;
+	flex: 1;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+.image {
+    max-width: 300px;
+}
