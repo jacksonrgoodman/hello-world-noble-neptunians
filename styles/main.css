@@ -46,14 +46,21 @@ ul {
 li {
 	flex-direction: row;
 }
+.link {
+	color: black;
+}
+.link:hover {
+	background: white
+}
+.link:visited {
+	color: blue;
+}
 .active {
-	background-color: white;
+	background-color: lightgoldenrodyellow;
 }
 .headline {
 	direction: column;
 	text-align: center;
-}
-.agency {
 }
 .logo {
 	width: 25%;
