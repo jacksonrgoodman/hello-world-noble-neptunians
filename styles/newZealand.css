@@ -2,6 +2,7 @@
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
+background-color: white;
 }
 .kiwi {
     display: flex;
@@ -11,4 +12,7 @@ justify-content: space-evenly;
     border-radius: 10px; 
     box-shadow: 0px 6px 13px 1px rgba(0,0,0,1)
     ;
+}
+.kiwiLogo{
+    width: 20%;
 }
