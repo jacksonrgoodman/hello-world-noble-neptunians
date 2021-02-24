@@ -61,6 +61,7 @@ li {
 }
 .headline {
 	direction: column;
+	text-align:center;
 }
 .logo {
 	width: 25%;
@@ -102,4 +103,5 @@ li {
 }
 .footer {
 	background: whitesmoke;
+	text-align: center;
 }
