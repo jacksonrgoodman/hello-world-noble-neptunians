@@ -1,0 +1,22 @@
+.southKoreaArticle {
+	/* border: 1px dotted black; */
+	flex-direction: column;
+	flex: 1;
+}
+.southKoreaImages {
+	/* border: 1px dotted black; */
+	flex-direction: column;
+	flex: 1;
+}
+.pagoda {
+	width: 50%;
+}
+.skpop {
+	width: 50%;
+}
+.seoul {
+	width: 50%;
+}
+.southKoreaPresident {
+	width: 50%;
+}
