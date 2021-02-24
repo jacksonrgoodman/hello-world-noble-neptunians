@@ -1,22 +1,14 @@
+.southKoreaLogo {
+	width: 25%;
+}
 .southKoreaArticle {
 	/* border: 1px dotted black; */
 	flex-direction: column;
 	flex: 1;
+	padding: 2rem;
+	border: 1px black solid;
+    border-radius: 15px;
 }
-.southKoreaImages {
-	/* border: 1px dotted black; */
-	flex-direction: column;
-	flex: 1;
-}
-.pagoda {
-	width: 50%;
-}
-.skpop {
-	width: 50%;
-}
-.seoul {
-	width: 50%;
-}
-.southKoreaPresident {
+.southKoreaImage {
 	width: 50%;
 }
