@@ -5,8 +5,8 @@
 }
 
 .malaysia {
-    border: 2px red solid;
-	background: white;
+    /* border: 2px red solid; */
+	/* background: white; */
 	display: flex;
 	text-align: center;
     
@@ -15,7 +15,7 @@
 .malaysia__list {
     flex-direction: column;
 	flex: 1;
-    border: 1px rgb(21, 226, 39) solid;
+    border: 1px rgb(2, 2, 2) solid;
     border-radius: 15px;
     
 
