@@ -1,10 +1,10 @@
 .malaysia__logo {
     min-width: 50px;
     width: 137px;
-    border: 1px black solid;
+    
 }
 
-.container {
+.malaysia {
     border: 2px red solid;
 	background: white;
 	display: flex;
@@ -12,7 +12,7 @@
     
 }
 
-.container__list {
+.malaysia__list {
     flex-direction: column;
 	flex: 1;
     border: 1px rgb(21, 226, 39) solid;
@@ -23,15 +23,16 @@
 /* .container__list-title {
 
 } */
-.container__list-card {
+.malaysia__list-card {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.container__list-item {
+.malaysia__list-item {
     border: 1px black solid;
     border-radius: 15px;
+    box-shadow: 4px rgba(0,0,0,8);
     width: 30%;
     background:rgb(243, 231, 160);
     margin: 10px;
@@ -39,6 +40,7 @@
 }
 
 
-.image {
-    max-width: 300px;
+.malaysia__image {
+    max-width: 250px;
+    min-width: 150px;
 }
