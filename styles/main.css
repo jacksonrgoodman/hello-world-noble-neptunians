@@ -70,27 +70,27 @@ li {
 	display: flex;
 	text-align: center;
 }
-.malaysia {
-	/* border: 1px dotted black; */
+.country {
+	
 	flex-direction: column;
 	flex: 1;
 }
 .malayLogo {
 	width: 38%;
 }
-.newZealand {
-	/* border: 1px dotted black; */
+/* .newZealand {
+	
 	flex-direction: column;
 	flex: 1;
-}
+} */
 .newZealLogo {
 	width: 56%;
 }
-.southKorea {
-	/* border: 1px dotted black; */
+/* .southKorea {
+	
 	flex-direction: column;
 	flex: 1;
-}
+} */
 .southKoreaLogo {
 	width: 67%
 }
