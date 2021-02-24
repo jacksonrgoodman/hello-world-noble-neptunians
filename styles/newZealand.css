@@ -1,0 +1,14 @@
+.kiwiContainer {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.kiwi {
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+    border: 2px solid black;
+    border-radius: 10px; 
+    box-shadow: 0px 6px 13px 1px rgba(0,0,0,1)
+    ;
+}
