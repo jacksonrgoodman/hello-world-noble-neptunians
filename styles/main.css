@@ -60,7 +60,6 @@ li {
 }
 .headline {
 	direction: column;
-	text-align: center;
 }
 .logo {
 	width: 25%;
@@ -91,7 +90,7 @@ li {
 	flex-direction: column;
 	flex: 1;
 }
-.southKoreaLogo {
+.southKoreaBall {
 	width: 67%
 }
 .footer {
