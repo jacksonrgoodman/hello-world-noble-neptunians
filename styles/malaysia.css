@@ -1,38 +1,44 @@
-.logo {
-    min-width: 150px;
+.malaysia__logo {
+    min-width: 50px;
+    width: 137px;
+    border: 1px black solid;
 }
 
 .container {
-    
+    border: 2px red solid;
 	background: white;
 	display: flex;
 	text-align: center;
-
+    
 }
 
-.people {
+.container__list {
     flex-direction: column;
 	flex: 1;
-    border: 1px black solid;
-    border-radius: 15px;
-
-}
-
-.cities {
-    flex-direction: column;
-	flex: 1;
-    border: 1px black solid;
+    border: 1px rgb(21, 226, 39) solid;
     border-radius: 15px;
     
 
 }
+/* .container__list-title {
 
-.landmarks {
-    flex-direction: column;
-	flex: 1;
+} */
+.container__list-card {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container__list-item {
     border: 1px black solid;
     border-radius: 15px;
+    width: 30%;
+    background:rgb(243, 231, 160);
+    margin: 10px;
+
 }
+
+
 .image {
     max-width: 300px;
 }
