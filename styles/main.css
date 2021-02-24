@@ -1,3 +1,4 @@
+@import 'southKorea.css';
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 
 /*Typography
@@ -12,7 +13,6 @@ textarea {
 	font-size: 14px;
 	line-height: 1.5;
 }
-
 h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
@@ -31,7 +31,6 @@ h1,h2,h3,h4,h5,h6 {
 	display: flex;
 	justify-content: space-around;
 }
-
 .nav {
 	/* border: 2px dotted red; */
 	display: flex;
@@ -75,10 +74,20 @@ li {
 	flex-direction: column;
 	flex: 1;
 }
+.people {
+	/* border: 1px dotted black; */
+	flex-direction: column;
+	flex: 1;
+}
 .malayLogo {
 	width: 38%;
 }
 .newZealand {
+	/* border: 1px dotted black; */
+	flex-direction: column;
+	flex: 1;
+}
+.cities {
 	/* border: 1px dotted black; */
 	flex-direction: column;
 	flex: 1;
