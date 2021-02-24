@@ -74,20 +74,10 @@ li {
 	flex-direction: column;
 	flex: 1;
 }
-.people {
-	/* border: 1px dotted black; */
-	flex-direction: column;
-	flex: 1;
-}
 .malayLogo {
 	width: 38%;
 }
 .newZealand {
-	/* border: 1px dotted black; */
-	flex-direction: column;
-	flex: 1;
-}
-.cities {
 	/* border: 1px dotted black; */
 	flex-direction: column;
 	flex: 1;
