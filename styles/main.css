@@ -90,10 +90,14 @@ li {
 	flex-direction: column;
 	flex: 1;
 
-}
+}*/
 .southKoreaBall {
 
 	width: 67%
+}
+.corporateMessage {
+	background: white;
+	text-align: center;
 }
 .footer {
 	background: whitesmoke;
