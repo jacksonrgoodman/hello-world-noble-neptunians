@@ -1,29 +1,40 @@
 .malaysia__logo {
-    min-width: 50px;
+    min-width: 70px;
     width: 137px;
-    
+    object-fit: contain;
+}
+.malaysia__title {
+    font-size:2rem;
 }
 
 .malaysia {
     /* border: 2px red solid; */
-	background: white;
+	background: whitesmoke;
 	display: flex;
 	text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 1px;
     
 }
 
 .malaysia__list {
+    display:flex;
     flex-direction: column;
-	flex: 1;
-    border: 1px rgb(2, 2, 2) solid;
+	width: 30%;
+    border: 0px rgb(2, 2, 2) solid;
+     /* box-shadow:0px 6px 6px 6px rgba(0,0,0,.8); */
+     box-shadow:0px 2px 5px 0px rgba(0,0,0,0.14) , 0px 1px 10px 0px rgba(0,0,0,0.12) , 0px 2px 4px -1px rgba(0,0,0,0.2);
     border-radius: 15px;
-    
-
 }
+.malaysia__list-desc{
+    margin: 10px 15px 0 15px;
+    text-align: left;
+}
+
 /* .container__list-title {
 
 } */
-.malaysia__list-card {
+/* .malaysia__list-card {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -35,12 +46,13 @@
     box-shadow: 4px rgba(0,0,0,8);
     width: 30%;
     background:rgb(243, 231, 160);
-    margin: 10px;
 
-}
+
+} */
 
 
 .malaysia__image {
+    justify-content: center;
     max-width: 250px;
     min-width: 150px;
 }
